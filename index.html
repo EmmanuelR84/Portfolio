@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/ico" href="img/logo-oscuro-1 copia.svg">
+	<title>Emmanuel Ramello</title>
+	<script type="text/javascript" src="js/jqueryv3-6-0.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body class="body-home">
+	<header>
+
+	<!--Nav Responsive start -->
+
+		<div class="inner-width">
+			<a href="#"><img src="img/flag-Spain.png" alt="Español" class="lang-icon"></a>
+			<span id="name-title">ERWEBP</span> 
+			<div class="menu-icon">
+				<i class="fas fa-bars"></i>
+			</div>
+		</div>
+	</header>
+
+	<div class="navigation-menu">
+		<nav>
+			<li><a href="#">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="works.html">Works</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</nav>
+	</div>
+
+    <!-- Nav Responsive end -->
+
+	<!-- Home Start -->
+    
+		<div class="titulo">
+			<h1 class="titulo-1"><span class="span-color">Emmanuel&nbsp</span>Ramello</h1>
+			<h3 class="sub-titulo-1">&nbsp;<span id="span-text">&nbsp;I'm a front-end developer.&nbsp;&nbsp;</span></h3>
+		</div>
+	<section class="sec-home">
+		<div class="home">
+			<div class="social-media">
+				<ul>
+					<li class="icon-social"><a href="#" ><img src="img/linkedin logo.png" alt="linkedin"></a></li>
+					<li class="icon-social"><a href="https://www.instagram.com/erwebp/" target="_blank"><img src="img/instagram logo.png" alt="instagram"></a></li>
+					<li class="icon-social"><a href="https://www.facebook.com/people/Emmanuel-Ramello/100079345824058/" target="_blank"><img src="img/facebook logo.png" alt="facebook"></a></li>
+					<li class="icon-social"><a href="https://wa.me/message/5Z63CRV3PUUCH1" target="_blank"><img src="img/whatsapp.png" alt="whatsapp"></a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="back" class="back-img">
+			<img src="img/mifoto2.png" alt="imagen" class="back-img">
+		</div>
+	</section>
+
+	<footer class="footer"><img src="img/copyright.png" alt="copyright" width="16px" height="16px"> copyright:<a href="https://erwebp.com.ar" class="erwebp" target="_blank">&nbsperwebp</a></footer>
+
+
+    <!-- Home End -->
+
+	<script>
+		$(".menu-icon").click(function() {
+			$(this).toggleClass("active");
+			$(".navigation-menu").toggleClass("active");
+			$(".menu-icon i").toggleClass("fa-times");
+		});
+	</script>
+	<script type="text/javascript" src="js/data.js"></script>
+</body>
+</html>
